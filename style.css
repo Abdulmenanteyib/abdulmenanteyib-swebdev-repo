@@ -6,15 +6,19 @@
 
 body {
     background-image: url(image/lake.jpg);
+    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 h1 {
     color: aqua;
-    border: 1px solid rgb(255, 255, 255);
-    margin: auto;
+    margin-left: 200px;
+    margin-top: 5px;
     /* text-shadow: brown; */
     /* text-wrap: pretty; */
     background-color: rgba(135, 170, 170, 0.747);
-    width: 50%;
+    width: auto;
+    height: 100px;
+    overflow: auto;
 
 }
